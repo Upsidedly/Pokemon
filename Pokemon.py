@@ -9,7 +9,7 @@ dimensions = (WIDTH, HEIGHT)
 
 screen = pygame.display.set_mode(dimensions, pygame.RESIZABLE)
 pygame.display.set_caption("Pokemon")
-BGImage = pygame.transform.scale(pygame.image.load("BGImage.png"), dimensions).convert_alpha()
+BGImage = pygame.transform.scale(pygame.image.load("BGImage.jpg"), dimensions).convert_alpha()
 
 
 class pokemon:
