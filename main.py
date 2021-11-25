@@ -17,10 +17,10 @@ clock = pygame.time.Clock()
 while run:
     for event in pygame.event.get():
         if event == pygame.QUIT:
+            print("Quit.")
             pygame.quit()
             sys.exit()
             run = False
 
     pygame.display.update()
     clock.tick(120)
-
